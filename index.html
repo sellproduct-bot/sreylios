@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous" />
+  <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar sm:navbar-expand bg-1 fg-2" data-bs-theme="light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="assets/images/logos/logo.png" width="180px">
+        </a>
+        <button class="btn-icon navbar-toggler" type="button" data-bs-toggle="drawer" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon" aria-hidden="true"></span>
+        </button>
+        <dialog class="drawer drawer-end" tabindex="-1" id="navbarNav" aria-labelledby="navbarNavLabel">
+          <div class="drawer-header">
+            <h5 class="drawer-title" id="navbarNavLabel">Menu</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="drawer" aria-label="Close"></button>
+          </div>
+          <div class="drawer-body">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">ទំព័រដើម</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="product.html">ផលិតផល</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">អំពីពួកយើង</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">ទំនាក់ទំនង</a>
+              </li>
+
+            </ul>
+          </div>
+        </dialog>
+      </div>
+    </nav>
+  </header>
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-autoplay="true">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="assets/images/banners/1.png" class="d-block w-100 rounded-5" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/images/banners/2.png" class="d-block w-100 rounded-5" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/images/banners/3.png" class="d-block w-100 rounded-5" alt="...">
+      </div>
+    </div>
+    <div class="d-flex justify-content-between align-items-center">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div>
+        <button class="btn-icon btn-sm carousel-control-play-pause" type="button"
+          data-bs-target="#carouselExampleAutoplaying" aria-label="Pause" data-bs-pause-label="Pause"
+          data-bs-play-label="Play">
+          <span class="carousel-icon-pause" aria-hidden="true"></span>
+          <span class="carousel-icon-play" aria-hidden="true"></span>
+        </button>
+        <button class="btn-icon btn-sm" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-icon-prev" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="btn-icon btn-sm" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-icon-next" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="contains-inline">
+        <div class="card-group">
+          <div class="card">
+            <img src="assets/images/categories/8.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title">lebtop</h4>
+
+            </div>
+          </div>
+          <div class="card">
+            <img src="assets/images/categories/7.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title">lebtop</h4>
+
+            </div>
+          </div>
+          <div class="card">
+            <img src="assets/images/categories/6.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title">lebtop</h4>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contains-inline">
+        <div class="card-group">
+          <div class="card">
+            <img src="assets/images/categories/5.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title">lebtop</h4>
+
+            </div>
+          </div>
+          <div class="card">
+            <img src="assets/images/categories/1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title">lebtop</h4>
+
+            </div>
+          </div>
+          <div class="card">
+            <img src="assets/images/categories/2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title">lebtop</h4>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contains-inline">
+        <div class="card-group">
+          <div class="card">
+            <img src="" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title">lebtop</h4>
+
+            </div>
+          </div>
+          <div class="card">
+            <img src="assets/images/categories/3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title">lebtop</h4>
+
+            </div>
+          </div>
+          <div class="card">
+            <img src="assets/images/categories/4.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title">lebtop</h4>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+  <footer class="footer-section">
+    <div class="container">
+
+      <div class="footer-top">
+        <div class="brand-badge"></div>
+        <h2></h2>
+        <p class="footer-tagline">កុំព្យូទ័រមានសារៈប្រយោជន៍ច្រើនក្នុងជីវិតប្រចាំថ្ងៃ ដូចជា៖
+
+          ការសិក្សា (Education)៖ ជួយស្វែងរកព័ត៌មាន សិក្សាតាមអ៊ីនធឺណិត និងធ្វើកិច្ចការសាលា។
+          ការងារ (Work)៖ ជួយធ្វើឯកសារ គណនាទិន្នន័យ និងរៀបចំការងារឱ្យបានលឿន។
+          ការទំនាក់ទំនង (Communication)៖ ជួយផ្ញើសារ អ៊ីមែល និងប្រជុំតាមអនឡាញ។
+          ការកម្សាន្ត (Entertainment)៖ អាចមើលភាពយន្ត ស្តាប់តន្ត្រី និងលេងហ្គេម។
+          ការរក្សាទុកទិន្នន័យ (Data Storage)៖ អាចរក្សាទុករូបភាព ឯកសារ និងព័ត៌មានផ្សេងៗ។
+          អាជីវកម្ម (Business)៖ ជួយគ្រប់គ្រងហិរញ្ញវត្ថុ លក់ទំនិញ និងគ្រប់គ្រងអតិថិជន។
+          ការស្រាវជ្រាវ (Research)៖ ជួយស្វែងរកចំណេះដឹងថ្មីៗ និងព័ត៌មានបានយ៉ាងងាយស្រួល។</p>
+
+
+        <div class="footer-badges">
+          <span class="badge-pill">Support 24/7</span>
+          <span class="badge-text">Updated weekly</span>
+        </div>
+      </div>
+
+
+      <div class="footer-links-grid">
+        <div class="link-column">
+          <h4>PRODUCT</h4>
+          <ul>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Templates</a></li>
+            <li><a href="#">Integrations</a></li>
+            <li><a href="#">Security</a></li>
+          </ul>
+        </div>
+        <div class="link-column">
+          <h4>COMPANY</h4>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="link-column">
+          <h4>RESOURCES</h4>
+          <ul>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Guides</a></li>
+            <li><a href="#">API Docs</a></li>
+            <li><a href="#">Status</a></li>
+          </ul>
+        </div>
+        <div class="link-column">
+          <h4>LEGAL</h4>
+          <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Cookies</a></li>
+            <li><a href="#">Accessibility</a></li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <p>phone number:0764692599</p>
+        <p>telegram:0712757288</p>
+        <p>សាខាខេត្តតាកែវ ស្រុកគិរីវង់ ផ្សារទន្លាប់</p>
+      </div>
+
+
+      <div class="footer-newsletter">
+        <h4>NEWSLETTER</h4>
+        <p>Get product updates, launch notes, and design insights delivered to your inbox.</p>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Email address">
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </footer>
+  </div>
+
+  <!-- <div class="row">
+
+            <div class="col-1 bg-danger">1</div>
+            <div class="col-1 bg-success">2</div>
+            <div class="col-1 bg-danger">1</div>
+            <div class="col-1 bg-success">2</div>
+            <div class="col-1 bg-danger">1</div>
+            <div class="col-1 bg-success">2</div>
+            <div class="col-1 bg-danger">1</div>
+            <div class="col-1 bg-success">2</div>
+            <div class="col-1 bg-danger">1</div>
+            <div class="col-1 bg-success">2</div>
+            <div class="col-1 bg-danger">1</div>
+            <div class="col-1 bg-success">2</div>
+            
+
+        </div>
+        <div class=" row gx-2 mt-2">
+            <div class="col-4 bg-primary">4</div>
+            <div class="col-4 bg-warning">4</div>
+            <div class="col-4 bg-primary">4</div>
+                     
+
+        </div> -->
+
+  </div>
+
+
+  <footer></footer>
+</body>
+
+</html>
